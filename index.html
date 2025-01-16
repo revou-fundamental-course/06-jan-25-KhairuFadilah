@@ -25,12 +25,12 @@
             <!--Homepage-->
             <section>
                 <header id="home">
-                    <h1>Hi <span id="user-greeting">User</span>, Welcome to Our Website</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                    <h1>Howdy <span id="user-greeting">User</span>, Welcome to My Portfolio!</h1>
+                    <p>I am an Information Systems student currently taking my 4th semester. I am self-taught to become a fullstack web developer</p>
                 </header>
-                <div class="banner-image">
-
-                </div>
+                <div class="banner-image banner-image-1"></div>
+                <div class="banner-image banner-image-2"></div>
+                <div class="banner-image banner-image-3"></div>
             </section>
             <hr>
             <!--Our Profile-->
@@ -41,20 +41,46 @@
                 <div class="content"></div>
             </section>
             <hr>
+            <hr>
             <!--Portfolio-->
             <section>
                 <header id="portfolio">
                     <h1>Portfolio</h1>
                 </header>
-                <div class="content"></div>
+                <div class="content">
+                    <div class="portfolio-item">
+                        <h2>Portfolio Item 1</h2>
+                        <a href="https://github.com/KhairuFadilah/SI_Kepegawaian" target="_blank">Link to Repository</a>
+                        <p>This program functions to manage employees in a company (currently in progress)</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <h2>Portfolio Item 2</h2>
+                        <a href="https://github.com/KhairuFadilah/MiniProject_ASD" target="_blank">Link to Repository</a>
+                        <p>This program is a simulation of the administration of a cellphone shop.</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <h2>Portfolio Item 3</h2>
+                        <a href="https://github.com/KhairuFadilah/MINPRO_MANAJEMEN-KONTAK" target="_blank">Link to Repository</a>
+                        <p>This program is a simulation of cell phone contacts</p>
+                    </div>
+                </div>
             </section>
             <hr>
             <!--Message Us-->
             <section>
                 <header id="message-us">
                     <h1>Message Us</h1>
+                    <form action="" method="post">
+                        <label for="name">Name</label> 
+                        <input type="text" name="name" id="name-input" required> <br/>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email-input" required> <br/>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message-input" cols="64" rows="8" required></textarea> <br/>
+                        <button type="button" id="submit-btn">Send</button>
+                    </form>
                 </header>
-                <div class="content"></div>
+                <div class="result-form"></div>
             </section>
         </main>
         <!--Footer-->

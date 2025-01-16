@@ -1,3 +1,68 @@
+@media only screen and (max-width: 600px){
+    .logo{
+        border-radius: 50%;
+        border:1px solid;
+        width:50px;
+        height: 50px;
+        background-image: url(https://picsum.photos/200);
+        background-size: cover;
+    }
+    .main-header{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner-image{
+        border: 1px solid;
+        height: 450px;
+        background-size: cover;
+        background-position: center;
+    }
+    .banner-image-1{
+        background-image: url(https://picsum.photos/1000);
+    }
+    .banner-image-2{
+        background-image: url(https://picsum.photos/1001);
+    }
+    
+    .banner-image-3{
+        background-image: url(https://picsum.photos/1002);
+    }
+    
+    nav{
+        display: flex;
+    }
+    .left-rounded{
+        border-radius: 4px 0 0 4px;
+    }
+    .right-rounded{
+        border-radius: 0 4px 4px 0;
+    }
+    nav>a{
+        border: 1px solid black;
+        padding: 5px;
+        color: black;
+        text-decoration: none;
+    }
+    .content{
+        height: 600px
+    }
+    .portfolio-item{
+        padding: 3px;
+    }
+    hr{
+        border: 1px solid;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+}
 .logo{
     border-radius: 50%;
     border:1px solid;
@@ -18,10 +83,20 @@
 .banner-image{
     border: 1px solid;
     height: 450px;
-    background-image: url(https://picsum.photos/1000);
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
 }
+.banner-image-1{
+    background-image: url(https://picsum.photos/1000);
+}
+.banner-image-2{
+    background-image: url(https://picsum.photos/1001);
+}
+
+.banner-image-3{
+    background-image: url(https://picsum.photos/1002);
+}
+
 nav{
     display: flex;
 }
@@ -38,7 +113,10 @@ nav>a{
     text-decoration: none;
 }
 .content{
-    height: 400px
+    height: 600px
+}
+.portfolio-item{
+    padding: 3px;
 }
 hr{
     border: 1px solid;
