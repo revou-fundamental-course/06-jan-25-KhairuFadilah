@@ -9,19 +9,13 @@ function formValidation(){
     let emailInput = document.getElementById('email-input').value;
     let messageInput = document.getElementById('message-input').value;
 
-    console.log(nameInput);
-    console.log(emailInput);
-    console.log(messageInput);
     if (nameInput == "" || emailInput == "" || messageInput == "") {
         alert("All fields must be filled out");
         return false;
-    }else{
-        document.getElementById("result-form").innerHTML = nameInput;
-        document.getElementById("result-form").innerHTML = emailInput;
-        document.getElementById("result-form").innerHTML = messageInput;
-        alert("Your message has been sent");
-        return true;
     }
+    alert("Your message has been sent! Thank you for contacting us.");
+    return true;
+    
 }
 document.getElementById("submit-btn").addEventListener('click',formValidation);
 

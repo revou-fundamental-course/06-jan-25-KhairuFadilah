@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 425px){
     .logo{
         border-radius: 50%;
         border:1px solid;
@@ -9,9 +9,9 @@
     }
     .main-header{
         display: grid;
-        justify-content: center;
-        align-items: center;
+        align-items: start;
         justify-items: center;
+        justify-content: center;
     }
     .header{
         display: flex;
